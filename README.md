@@ -1,4 +1,4 @@
-# Xcode-Project-Setup
+# Xcode Project Practices
 Common practices and tools to be implemented when starting a new Xcode project such as versioning, CI, setting up environements, etc 
 
 * [Setup](#setup)
@@ -10,6 +10,7 @@ Common practices and tools to be implemented when starting a new Xcode project s
   * [Sketch](#sketch)
 * [Common Practices](#common-practices)
   * [Constants](#constants)
+  * (To-Do) Using Result.swift file on completion handler
 
 ## Setup
 
