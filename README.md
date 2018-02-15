@@ -1,18 +1,20 @@
 # Xcode-Project-Setup
 Common practices and tools to be implemented when starting a new Xcode project such as versioning, CI, setting up environements, etc 
 
-• [Versioning](#versioning)
+* [Setup](#setup)
+  * [Versioning](#versioning)
+  * [Environments](#environments)
+* [Tools](#tools)
+  * [Fastlane](#fastlane)
+  * [Fabric](#fabric) 
+  * [Sketch](#sketch)
+* [Common Practices](#common-practices)
+  * [Constants](#constants)
 
-• [Fastlane](#fastlane)
+## Setup
 
-
-## Versioning
+### Versioning
 Setup build and version numbers so that they can be auto incremented using [Fastlane](#fastlane)
-
-
-
-
-
 
 ![alt text](https://developer.apple.com/library/content/qa/qa1827/Art/QA1827_Versioning.png)
 
@@ -24,13 +26,17 @@ Setup build and version numbers so that they can be auto incremented using [Fast
 
 ![alt text](https://developer.apple.com/library/content/qa/qa1827/Art/QA1827_InfoPaneInXcode.png)
 
+### Environments
 
-## Fastlane
+
+## Tools
+
+### Fastlane
 > fastlane is an open source platform aimed at simplifying Android and iOS deployment.
 
 > fastlane lets you automate every aspect of your development and release workflow.
 
-### Installing
+#### Installing
 Make sure you have latest verison of Xcode command line tools installed:
 
 `
@@ -45,8 +51,16 @@ or
 
 `brew cask install fastlane`
 
-### Setting it up in your project
+#### Setting it up in your project
 Navigate to project directory and run
 
 `fastlane init`
 
+
+### Fabric
+
+### Sketch
+
+## Common Practices
+
+### Constants
