@@ -76,7 +76,7 @@ Using [Firebase](#firebase) as backend service and configuring it up for dev and
 
 ## Tools
 
-### Fastlane🚀
+### Fastlane<img src="https://avatars0.githubusercontent.com/u/11098337?s=400&v=4" width="30" height="30">
 > fastlane is an open source platform aimed at simplifying Android and iOS deployment.
 
 > fastlane lets you automate every aspect of your development and release workflow.
@@ -102,7 +102,7 @@ Navigate to project directory and run
 ### CocoaPods
 
 
-### Crashlytics
+### Crashlytics<img src="https://a.slack-edge.com/7f1a0/plugins/crashlytics/assets/service_512.png" width="30" height="30">
 
 #### Install Crashlytics via CocoaPods
 ```
@@ -116,7 +116,7 @@ Run command
 
 #### Add a run script build phase
 
-### Firebase
+### Firebase<img src="https://firebase.google.com/_static/images/firebase/touchicon-180.png" width="30" height="30">
 
 ### Sketch<img src="https://www.sketchapp.com/images/press/sketch-press-kit/app-icons/sketch-mac-icon@2x.png" width="30" height="30">
 
