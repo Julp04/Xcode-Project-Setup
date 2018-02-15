@@ -99,7 +99,29 @@ Navigate to project directory and run
 
 `fastlane init`
 
-### CocoaPods
+### [CocoaPods](https://cocoapods.org/)
+CocoaPods are a very easy way to integreate different frameworks and packages into your project.
+There are tons and tons of cocoapods out there that will save development hours for many different aspects of your project like:
+
+* Custom Alert Views
+* Custom Login Pages
+* Setting up backend services like [Firebase](#firebase) or [Crashlytics](#crashlytics)
+* Much, much more!
+
+In order to use cocoapods in your project cd in your project directory and run
+
+`pod init`
+
+This will create a podfile that looks like this:
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/podfile.png)
+
+#### Install pods
+cd into your project director and run
+
+`pod install`
+
+This will create a new .xcworkspace file in your directory which you should now use from now on instead of .xcproj
 
 
 ### [Crashlytics](https://fabric.io/kits/ios/crashlytics/install)<img src="https://a.slack-edge.com/7f1a0/plugins/crashlytics/assets/service_512.png" width="30" height="30">
