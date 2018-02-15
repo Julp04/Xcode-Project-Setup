@@ -118,7 +118,7 @@ Run command
 
 ### Firebase
 
-### Sketch
+### Sketch<img src="https://www.sketchapp.com/images/press/sketch-press-kit/app-icons/sketch-mac-icon@2x.png" width="30" height="30">
 
 ## Common Practices
 
