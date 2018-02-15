@@ -1,13 +1,26 @@
 # Xcode-Project-Setup
 Common practices and tools to be implemented when starting a new Xcode project such as versioning, CI, setting up environements, etc 
 
+• [Versioning](#versioning)
+
 • [Fastlane](#fastlane)
 
 
 ## Versioning
-Setup build and verion numbers so that they can be auto incremented by fastlane
+Setup build and version numbers so that they can be auto incremented using [Fastlane](#fastlane)
+
+
+
+
+
 
 ![alt text](https://developer.apple.com/library/content/qa/qa1827/Art/QA1827_Versioning.png)
+
+  Initially you are going to want to set: 
+
+  Bundle versions string, short: `1.0.0`
+
+  Bundle verison: `1`
 
 ![alt text](https://developer.apple.com/library/content/qa/qa1827/Art/QA1827_InfoPaneInXcode.png)
 
