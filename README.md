@@ -59,7 +59,19 @@ Navigate to project directory and run
 ### CocoaPods
 
 
-### Fabric
+### Crashlytics
+
+#### Install Crashlytics via CocoaPods
+```
+use_frameworks!
+pod 'Fabric'
+pod 'Crashlytics'
+```
+
+Run command 
+`pod install`
+
+#### Add a run script build phase
 
 ### Sketch
 
