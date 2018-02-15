@@ -12,7 +12,14 @@ Common practices and tools to be implemented when starting a new Xcode project s
   * [Sketch](#sketch)
 * [Common Practices](#common-practices)
   * [Constants](#constants)
-  * (To-Do) Using Result.swift file on completion handler
+  * [Result.swift](#result)
+  
+* To-Do
+  - [ ] Result.swift
+  - [ ] Sketch setup and script
+  - [ ] Firebase setup and script
+  - [ ] Fastlane example lanes
+  - [ ] Finish Crashlytics setup
 
 ## Setup
 
