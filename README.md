@@ -1,6 +1,8 @@
 # Xcode Project Practices
 Common practices and tools to be implemented when starting a new Xcode project such as versioning, CI, setting up environements, etc 
 
+## Table of Contents
+
 * [Setup](#setup)
   * [Versioning](#versioning)
   * [Environments](#environments)
