@@ -6,7 +6,8 @@ Common practices and tools to be implemented when starting a new Xcode project s
   * [Environments](#environments)
 * [Tools](#tools)
   * [Fastlane](#fastlane)
-  * [Fabric](#fabric) 
+  * [CocoaPods](#cocoapods)
+  * [Fabric / Crashlytics](#fabric)
   * [Sketch](#sketch)
 * [Common Practices](#common-practices)
   * [Constants](#constants)
@@ -32,7 +33,7 @@ Setup build and version numbers so that they can be auto incremented using [Fast
 
 ## Tools
 
-### Fastlane
+### Fastlane🚀
 > fastlane is an open source platform aimed at simplifying Android and iOS deployment.
 
 > fastlane lets you automate every aspect of your development and release workflow.
@@ -40,9 +41,7 @@ Setup build and version numbers so that they can be auto incremented using [Fast
 #### Installing
 Make sure you have latest verison of Xcode command line tools installed:
 
-`
-  xcode-select --install
-`
+`xcode-select --install`
 
 Install fastlane using 
 
@@ -56,6 +55,8 @@ or
 Navigate to project directory and run
 
 `fastlane init`
+
+### CocoaPods
 
 
 ### Fabric
