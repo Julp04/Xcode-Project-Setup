@@ -18,7 +18,7 @@ Common practices and tools to be implemented when starting a new Xcode project s
   
 * To-Do
   - [ ] Result.swift
-  - [ ] Sketch setup and script
+  - [X] Sketch setup and script
   - [ ] Firebase setup and script
   - [ ] Fastlane example lanes
   - [ ] Finish Crashlytics setup
