@@ -18,7 +18,7 @@ Common practices and tools to be implemented when starting a new Xcode project s
   
 * To-Do
   - [ ] Result.swift
-  - [ ] Sketch setup and script
+  - [X] Sketch setup and script
   - [ ] Firebase setup and script
   - [ ] Fastlane example lanes
   - [ ] Finish Crashlytics setup
@@ -154,6 +154,44 @@ Run command
 
 Layout the design of your app!
 ![alt text](https://newbirddesign.com/app/uploads/2017/01/Sketch-Pages.jpeg)
+
+#### Sketchtool
+Sketch tool  is an awesome command line tool that comes with Sketch. 
+
+To make the best use of it, we are going to use a python script that will automatically import your Sketch slices into your Xcode Project.
+
+First go [here](https://github.com/Julp04/Xcode-Project-Setup/blob/master/Other%20Files/slice.py) to download slice.py
+
+Next, add it to your project directory, and create any named Sketch file (I name mine Design.sketch) and add it to the directory as well
+
+<img src="https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/folder_sketch.png" width="600" height="400">
+
+Now we need to add a new run script to your xcode project.
+
+Select your project and select Build Phases
+
+Hit the plus icon in the top left and select "New Run Script Phase"
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/new_runscript.png)
+
+Add the script
+
+`python "$PROJECT_DIR/slice.py" "$PROJECT_DIR/Design.sketch" "$PROJECT_DIR/Assets.xcassets"`
+
+Make sure the script is placed before "Copy Bundle Resources" as seen below
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/sketch_script.png)
+
+Now create your assets in your Design.sketch file. All images you want imported over have to be slices.
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/sketch_editor.png)
+
+
+When you build your project all slices that have been saved in Design.sketch will automatically import over
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/slices_xcode.png)
+
+If you having any issues head to the original [article](http://www.ryangomba.com/automatically-export-sketch-slices-xcode.html) written by [Ryan Gomba](http://www.ryangomba.com/)
 
 ## Common Practices
 
