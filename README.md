@@ -193,6 +193,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
+See this [tutorial](https://fabric.io/kits/ios/crashlytics/install) for more help
+
 
 ### [Firebase](https://firebase.google.com/docs/ios/setup)<img src="https://firebase.google.com/_static/images/firebase/touchicon-180.png" width="30" height="30">
 
