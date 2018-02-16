@@ -21,7 +21,7 @@ Common practices and tools to be implemented when starting a new Xcode project s
   - [X] Sketch setup and script
   - [ ] Firebase setup and script
   - [ ] Fastlane example lanes
-  - [ ] Finish Crashlytics setup
+  - [X] Finish Crashlytics setup
 
 ## Setup
 
@@ -146,6 +146,53 @@ Run command
 `pod install`
 
 #### Add a run script build phase
+
+In the Project Navigator, click on your project and add a new run script build phase
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/crashlytics_script.gif)
+
+`"${PODS_ROOT}/Fabric/run" <your-key-here>`
+
+#### Add your API Key
+
+In the Project Navigator, right click on "Info.plist", and "Open as" → "Source Code"
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/fabric_infoplist.gif)
+
+
+```html
+  <key>Fabric</key>
+  <dict>
+    <key>APIKey</key>
+    <string>  <your-key-here> </string>
+    <key>Kits</key>
+    <array>
+      <dict>
+        <key>KitInfo</key>
+        <dict/>
+        <key>KitName</key>
+        <string>Crashlytics</string>
+      </dict>
+    </array>
+  </dict>
+```
+
+#### Initialize your kit
+
+```swift
+import UIKit
+import Fabric
+import Crashlytics
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+      Fabric.with([Crashlytics.self])
+      return true
+    }
+}
+```
+
 
 ### [Firebase](https://firebase.google.com/docs/ios/setup)<img src="https://firebase.google.com/_static/images/firebase/touchicon-180.png" width="30" height="30">
 
