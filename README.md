@@ -155,6 +155,33 @@ Run command
 Layout the design of your app!
 ![alt text](https://newbirddesign.com/app/uploads/2017/01/Sketch-Pages.jpeg)
 
+#### Sketchtool
+Sketch tool  is an awesome command line tool that comes with Sketch. 
+
+To make the best use of it, we are going to use a python script that will automatically import your Sketch slices into your Xcode Project.
+
+First go [here](https://github.com/Julp04/Xcode-Project-Setup/blob/master/Other%20Files/slice.py) to download slice.py
+
+Next, add it to your project directory, and create any named Sketch file (I name mine Design.sketch) and add it to the directory as well
+
+<img src="https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/folder_sketch.png" width="500" height="400">
+
+Now we need to add a new run script to your xcode project.
+
+Select your project and select Build Phases
+
+Hit the plus icon in the top left and add new run script
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/new_runscript.png)
+
+Add the script
+
+`python "$PROJECT_DIR/slice.py" "$PROJECT_DIR/Design.sketch" "$PROJECT_DIR/Assets.xcassets"`
+
+Make sure the script is placed before "Copy Bundle Resources" as seen below
+
+![alt text](https://github.com/Julp04/Xcode-Project-Setup/blob/master/images/sketch_script.png)
+
 ## Common Practices
 
 ### Constants
