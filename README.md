@@ -150,6 +150,10 @@ Run command
 ### [Firebase](https://firebase.google.com/docs/ios/setup)<img src="https://firebase.google.com/_static/images/firebase/touchicon-180.png" width="30" height="30">
 
 ### [Sketch](https://sketchapp.com)<img src="https://www.sketchapp.com/images/press/sketch-press-kit/app-icons/sketch-mac-icon@2x.png" width="30" height="30">
+> Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.
+
+Layout the design of your app!
+![alt text](https://newbirddesign.com/app/uploads/2017/01/Sketch-Pages.jpeg)
 
 ## Common Practices
 
