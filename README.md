@@ -135,6 +135,13 @@ This will create a new .xcworkspace file in your directory which you should now 
 
 ### [Crashlytics](https://fabric.io/kits/ios/crashlytics/install)<img src="https://a.slack-edge.com/7f1a0/plugins/crashlytics/assets/service_512.png" width="30" height="30">
 
+> The most powerful, yet lightest weight crash reporting solution.
+
+
+Spend less time finding and more time fixing crashes. Named the #1 performance SDK on both iOS and Android, Crashlytics provides deep and actionable insights, even the exact line of code your app crashed on.
+
+While Crashlytics gives you powerful crash reporting, with one additional click you can enable real-time analytics that help you understand what's happening in your app. Fabric's analytics engine provides insights into your core goals, such as growth, retention, and engagement. Finally, analytics you don't need to analyze.
+
 #### Install Crashlytics via CocoaPods
 ```
 use_frameworks!
